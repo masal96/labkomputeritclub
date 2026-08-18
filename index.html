@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Komputer & IT Club</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-code"></i> LAB<span>KOM</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#modul">Pembelajaran</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#jadwal">Jadwal Lab</a></li>
+                <li><a href="#daftar" class="btn-primary">Daftar Club</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-btn"><i class="fa-solid fa-moon"></i></button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <span class="badge">Pusat Inovasi & Teknologi</span>
+            <h1>Eksplorasi Dunia Digital Bersama <span class="text-gradient">IT Club</span></h1>
+            <p>Wadah kreativitas siswa dalam mempelajari Web Development, Scratch Game, C# Programming, dan Desain Grafis.</p>
+            <div class="hero-buttons">
+                <a href="#modul" class="btn-glow"><i class="fa-solid fa-book-open"></i> Akses Modul</a>
+                <a href="#portofolio" class="btn-outline"><i class="fa-solid fa-laptop-code"></i> Lihat Karya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stat/Highlight Section -->
+    <section class="stats-section">
+        <div class="stat-card">
+            <h3>4+</h3>
+            <p>Divisi Keahlian</p>
+        </div>
+        <div class="stat-card">
+            <h3>50+</h3>
+            <p>Modul & Tutorial</p>
+        </div>
+        <div class="stat-card">
+            <h3>100+</h3>
+            <p>Proyek Siswa</p>
+        </div>
+        <div class="stat-card">
+            <h3>30</h3>
+            <p>Unit Komputer Lab</p>
+        </div>
+    </section>
+
+    <!-- Profil & Divisi -->
+    <section id="profil" class="section-container">
+        <h2 class="section-title">Profil & Divisi IT Club</h2>
+        <div class="grid-4">
+            <div class="card">
+                <i class="fa-solid fa-code card-icon"></i>
+                <h3>Web Development</h3>
+                <p>Mempelajari HTML, CSS, JavaScript, hingga pengembangan website modern yang interaktif.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-gamepad card-icon"></i>
+                <h3>Game Dev (Scratch/C#)</h3>
+                <p>Mengasah logika pemrograman melalui pembuatan gim Scratch 3 dan aplikasi C#.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-palette card-icon"></i>
+                <h3>Graphic Design</h3>
+                <p>Eksplorasi kreativitas visual, pembuatan aset gim, poster, UI/UX design, dan identitas brand.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-network-wired card-icon"></i>
+                <h3>Networking</h3>
+                <p>Pemahaman dasar jaringan komputer, pengkabelan LAN, dan konfigurasi sistem operasi.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pusat Modul & Materi Pembelajaran -->
+    <section id="modul" class="section-container bg-alt">
+        <h2 class="section-title">Pusat Modul Pembelajaran</h2>
+        <div class="grid-3">
+            <div class="card card-modul">
+                <span class="tag tag-scratch">Scratch 3</span>
+                <h3>Modul Logika Gim Catching Game</h3>
+                <p>Panduan langkah demi langkah membuat gim tangkap objek untuk pemula kelas 7 SMP.</p>
+                <a href="#" class="btn-link"><i class="fa-solid fa-download"></i> Unduh PDF</a>
+            </div>
+            <div class="card card-modul">
+                <span class="tag tag-csharp">C# Language</span>
+                <h3>Cheatsheet C# Console App</h3>
+                <p>Rangkuman variabel, tipe data, operator aritmatika, dan struktur kontrol logika.</p>
+                <a href="#" class="btn-link"><i class="fa-solid fa-download"></i> Unduh PDF</a>
+            </div>
+            <div class="card card-modul">
+                <span class="tag tag-web">Web Dev</span>
+                <h3>Panduan HTML & CSS Grid</h3>
+                <p>Latihan membuat layout responsif menggunakan CSS Grid dan Flexbox modern.</p>
+                <a href="#" class="btn-link"><i class="fa-solid fa-download"></i> Unduh PDF</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Portofolio Siswa -->
+    <section id="portofolio" class="section-container">
+        <h2 class="section-title">Galeri Karya Siswa</h2>
+        <div class="grid-3">
+            <div class="card card-portfolio">
+                <div class="portfolio-thumb">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <h3>Catching Apple Game</h3>
+                <p class="author">Karya: Ahmad (Kelas 7)</p>
+                <p>Gim edukasi interaktif menggunakan Scratch 3 dengan sistem skor dan timer.</p>
+                <div class="card-action">
+                    <span class="badge-tech">Scratch</span>
+                    <a href="#" class="btn-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                </div>
+            </div>
+            <div class="card card-portfolio">
+                <div class="portfolio-thumb">
+                    <i class="fa-solid fa-calculator"></i>
+                </div>
+                <h3>Kalkulator Console C#</h3>
+                <p class="author">Karya: Siti (Kelas 8)</p>
+                <p>Aplikasi kalkulator berbasis konsol dengan fungsi matematika dasar dan perulangan menu.</p>
+                <div class="card-action">
+                    <span class="badge-tech">C#</span>
+                    <a href="#" class="btn-icon"><i class="fa-solid fa-code"></i> Code</a>
+                </div>
+            </div>
+            <div class="card card-portfolio">
+                <div class="portfolio-thumb">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <h3>Website Profil E-Library</h3>
+                <p class="author">Karya: Tim Web IT Club</p>
+                <p>Rancangan antarmuka perpustakaan digital sekolah yang ramah seluler.</p>
+                <div class="card-action">
+                    <span class="badge-tech">HTML/CSS</span>
+                    <a href="#" class="btn-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operasional & Jadwal Lab Komputer -->
+    <section id="jadwal" class="section-container bg-alt">
+        <h2 class="section-title">Jadwal & Booking Lab Komputer</h2>
+        <div class="table-responsive">
+            <table class="lab-table">
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Sesi / Waktu</th>
+                        <th>Kegiatan / Kelas</th>
+                        <th>Pengampu / Pembina</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>08.00 - 10.00</td>
+                        <td>Informatika Kelas 7</td>
+                        <td>Pak Budi, S.Kom</td>
+                        <td><span class="status occupied">Terpakai</span></td>
+                    </tr>
+                    <tr>
+                        <td>Rabu</td>
+                        <td>15.00 - 17.00</td>
+                        <td>Kumpul Rutin IT Club</td>
+                        <td>Tim Pembina</td>
+                        <td><span class="status reserved">Rutin IT Club</span></td>
+                    </tr>
+                    <tr>
+                        <td>Jumat</td>
+                        <td>13.30 - 15.30</td>
+                        <td>Workshop Game Dev C#</td>
+                        <td>Divisi Game Dev</td>
+                        <td><span class="status open">Terbuka / Booking</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Pendaftaran Anggota Baru -->
+    <section id="daftar" class="section-container">
+        <div class="form-box">
+            <h2>Pendaftaran Anggota IT Club</h2>
+            <p>Bergabunglah bersama kami dan kembangkan keahlian digitalmu!</p>
+            <form id="form-pendaftaran" action="https://api.web3forms.com/submit" method="POST">
+    <!-- Masukkan Access Key Web3Forms Anda di sini -->
+    <input type="hidden" name="access_key" value="bf47e3f6-842e-472e-a68a-346326be48e8">
+    
+    <!-- Subjek Email yang diterima -->
+    <input type="hidden" name="subject" value="Pendaftaran Baru IT Club">
+    
+    <!-- Redirect setelah sukses (opsional) -->
+    <input type="hidden" name="from_name" value="Website Lab Komputer">
+
+    <div class="form-group">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="Nama" placeholder="Masukkan nama lengkap" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="kelas">Kelas</label>
+        <input type="text" id="kelas" name="Kelas" placeholder="Contoh: 7-A / 8-B" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="divisi">Pilihan Divisi Utama</label>
+        <select id="divisi" name="Divisi" required>
+            <option value="">-- Pilih Divisi --</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Game Development">Game Development (Scratch / C#)</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="Networking">Networking</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="alasan">Alasan Bergabung</label>
+        <textarea id="alasan" name="Alasan" rows="4" placeholder="Tuliskan alasan atau minatmu..."></textarea>
+    </div>
+
+    <button type="submit" class="btn-glow btn-full">Kirim Pendaftaran</button>
+</form>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Lab Komputer & IT Club Sekolah. All Rights Reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
