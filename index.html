@@ -177,24 +177,24 @@
                 <tbody>
                     <tr>
                         <td>Senin</td>
-                        <td>08.00 - 10.00</td>
-                        <td>Informatika Kelas 7</td>
-                        <td>Pak Budi, S.Kom</td>
+                        <td>12.50 - 15.00</td>
+                        <td>Informatika Kelas 7 - 9</td>
+                        <td>Dwi A. Aziz, S.Kom</td>
                         <td><span class="status occupied">Terpakai</span></td>
                     </tr>
                     <tr>
-                        <td>Rabu</td>
+                        <td>Jumat</td>
                         <td>15.00 - 17.00</td>
                         <td>Kumpul Rutin IT Club</td>
                         <td>Tim Pembina</td>
                         <td><span class="status reserved">Rutin IT Club</span></td>
                     </tr>
                     <tr>
-                        <td>Jumat</td>
-                        <td>13.30 - 15.30</td>
-                        <td>Workshop Game Dev C#</td>
+                        <td>Sabtu</td>
+                        <td>11.30 - 14.00</td>
+                        <td>Pelatihan IT CLUB</td>
                         <td>Divisi Game Dev</td>
-                        <td><span class="status open">Terbuka / Booking</span></td>
+                        <td><span class="status open">Semua Anggota</span></td>
                     </tr>
                 </tbody>
             </table>
@@ -206,45 +206,35 @@
         <div class="form-box">
             <h2>Pendaftaran Anggota IT Club</h2>
             <p>Bergabunglah bersama kami dan kembangkan keahlian digitalmu!</p>
-            <form id="form-pendaftaran" action="https://api.web3forms.com/submit" method="POST">
-    <!-- Masukkan Access Key Web3Forms Anda di sini -->
+            <form action="https://api.web3forms.com/submit" method="POST" id="form-pendaftaran">
     <input type="hidden" name="access_key" value="bf47e3f6-842e-472e-a68a-346326be48e8">
+    <input type="hidden" name="subject" value="Pendaftaran IT Club Baru">
     
-    <!-- Subjek Email yang diterima -->
-    <input type="hidden" name="subject" value="Pendaftaran Baru IT Club">
-    
-    <!-- Redirect setelah sukses (opsional) -->
-    <input type="hidden" name="from_name" value="Website Lab Komputer">
-
+    <!-- Input Form -->
     <div class="form-group">
         <label for="nama">Nama Lengkap</label>
-        <input type="text" id="nama" name="Nama" placeholder="Masukkan nama lengkap" required>
+        <input type="text" id="nama" name="Nama" required>
     </div>
-    
     <div class="form-group">
         <label for="kelas">Kelas</label>
-        <input type="text" id="kelas" name="Kelas" placeholder="Contoh: 7-A / 8-B" required>
+        <input type="text" id="kelas" name="Kelas" required>
     </div>
-    
     <div class="form-group">
         <label for="divisi">Pilihan Divisi Utama</label>
         <select id="divisi" name="Divisi" required>
             <option value="">-- Pilih Divisi --</option>
-            <option value="Web Development">Web Development</option>
-            <option value="Game Development">Game Development (Scratch / C#)</option>
-            <option value="Graphic Design">Graphic Design</option>
-            <option value="Networking">Networking</option>
+            <option value="Scratch Development">Game Development</option>
+            <option value="Python Development">Pemograman</option>
+            <option value="Pictoblox Development">Ai Machine Learning</option>
         </select>
     </div>
-    
     <div class="form-group">
         <label for="alasan">Alasan Bergabung</label>
-        <textarea id="alasan" name="Alasan" rows="4" placeholder="Tuliskan alasan atau minatmu..."></textarea>
+        <textarea id="alasan" name="Alasan" rows="4"></textarea>
     </div>
 
     <button type="submit" class="btn-glow btn-full">Kirim Pendaftaran</button>
 </form>
-
     <!-- Footer -->
     <footer>
         <div class="footer-content">
