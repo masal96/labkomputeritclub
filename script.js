@@ -11,15 +11,3 @@ themeToggleBtn.addEventListener('click', () => {
         : '<i class="fa-solid fa-moon"></i>';
 });
 
-// Handling Form Pendaftaran
-const formPendaftaran = document.getElementById('form-pendaftaran');
-
-formPendaftaran.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    const nama = document.getElementById('nama').value;
-    const divisi = document.getElementById('divisi').options[document.getElementById('divisi').selectedIndex].text;
-    
-    alert(`Terima kasih ${nama}, pendaftaran kamu untuk divisi ${divisi} berhasil dikirim!`);
-    formPendaftaran.reset();
-});
